@@ -1,0 +1,58 @@
+
+#prin{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#prin #p1{
+   position: relative;
+   top: 150px;
+   font-size: 50px;
+   filter: drop-shadow(0px 0px 40px rgb(100, 72, 11));;
+   margin-bottom: 7px;
+}
+
+#prin #p2{
+    position: relative;
+    top: 150px;
+    transform:  scale(2);
+    filter: drop-shadow(0px 0px 40px rgb(75, 15, 240));;
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+        top: 0px;
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.5);
+        top: 50px;
+    }
+    75% {
+        opacity: 0.8;
+        transform: scale(0) ;
+        top: 75px;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        top: 100px;
+    }
+}
+
+.fade {
+    animation: fade 0.5s ease-in forwards;
+}

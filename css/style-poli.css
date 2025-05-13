@@ -1,0 +1,71 @@
+#poli-title{
+    background-color: #d8753b86;
+    border: 1px solid #997a24;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+h2{
+    color: #f5f5f5;
+    filter: drop-shadow(0px 0px 50px rgb(255, 255, 255));;
+    font-size: 30px;
+    text-align: center;
+}
+
+.etc{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#lechuga{
+    background-color: #75e04386;
+    border: 1px solid #58ec01;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#tomate{
+    background-color: #cf080886;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#queso{
+    background-color: #f5f50086;
+    border: 1px solid #f5f500;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#carne{
+    background-color: #7f4b3c86;
+    border: 1px solid #7f4b3c;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#pan{
+    background-color: #d8753b86;
+    border: 1px solid #997a24;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div{
+    transform: scale(0.9);
+    transition: 0.3s ease-out;
+}
+
+.divi:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.637);
+    transform: scale(1);
+    transition: 0.3s ease-in;
+}

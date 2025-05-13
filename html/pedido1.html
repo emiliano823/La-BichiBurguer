@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style-gral.css">
+    <link rel="stylesheet" href="../css/style-ped1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav style="backdrop-filter: blur(5px);">
+        <div class="nav-izq"></div>
+        <div class="nav-dere" style="display: flex; align-items: center; justify-content: right;">
+            <a href="../index.html" >Inicio</a>
+            <a href="politicas.html">Politicas</a>
+            <a href="pedido1.html" style="border: 2px solid blue; scale: 1.1;">Orden</a>
+            <img src="../img/bichiii.png">
+        </div>
+        
+    </nav>
+
+    <p id="p1">Pedido:</p>
+    <div class="container">
+        <div id="pedido">
+        <label for="ham">Hamburgesas: </label>
+        <input type="number" id="cantHam" name="ham" value="0">
+        <br><br>
+
+        <label for="drinks">Bebidas: </label>
+        <input type="radio" name="drink" id="pep" value="20">
+        <label for="pep">Pepsi</label>
+        <input type="radio" name="drink" id="coc" value="20">
+        <label for="coc">Coca Cola</label>
+        <br><br>
+
+        <label for="lbl2">Complemento: </label>
+        <input type="checkbox" name="ran" id="ran"><label for="ran">BichiRanch</label>
+        <input type="checkbox" name="bbq" id="bbq"><label for="bbq">BichiBBQ</label>
+        <br><br>
+
+        <button id="btn-calculando">Calculando</button>
+        <button id="btn-cambio">Confirmar Pedido</button>
+        <br><br>
+
+        <label for="lbl3"> Monto a pagar:</label><br>
+        <input type="text" id="out3" name="lbl3">
+        <br><br><br>
+
+        <label for="lbl4"> Tipo de Pago: </label>
+        <input type="text" id="out4" name="lbl4">
+         <br><br><br>
+         <label for="lbl5"> Recolección: </label>
+        <input type="text" id="out5" name="lbl5">
+         <br><br><br>
+    </div>
+    <div id="imagenes" style="margin-right: 100px;">
+        <div id="hamburguesas"></div>
+        <div id="drinkis"></div>
+        <div id="complementos"></div>
+    </div>
+</div>
+    
+
+    <script src="../js/script-ped1.js"></script>
+
+</body>
+</html>

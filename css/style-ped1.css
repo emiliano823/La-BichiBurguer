@@ -1,0 +1,105 @@
+body {
+    background-image: url(../img/ham.jpeg);
+    }
+    
+button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #c9c29c;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.527);
+    border: 2px solid rgba(192, 107, 67, 0.788);
+    font-size: large;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    color : white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+#pedido{
+    background-color: rgba(71, 105, 119, 0.356);
+    border: 2px solid rgba(192, 163, 67, 0.788);
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    align-items: center;
+    padding: 10px;
+    scale: 1.2;
+}
+
+#hamburguesas{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#hamburguesas img{
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: scale(0.1) rotate(0deg);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.6) rotate(5deg);
+    }
+    75% {
+        opacity: 0.8;
+        transform: scale(0.3) rotate(15deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(0.5) rotate(-5deg);
+    }
+}
+
+.fade {
+    animation: fade 0.5s ease-in-out;
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+        font-size: 5px;
+    }  
+    50% {
+        opacity: 0.5;
+        font-size: 10px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 20px;
+    }
+}
+
+.dot {
+    animation: dot 1s infinite alternate;
+}
